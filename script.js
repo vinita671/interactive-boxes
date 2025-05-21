@@ -9,11 +9,7 @@ document.querySelectorAll('.box').forEach(box => {
     this.classList.remove('expanded');
   });
 
-  // Color change logic
-//   const colorSelect = box.querySelector('.color-select');
-//   colorSelect.addEventListener('change', function () {
-//     box.style.backgroundColor = this.value;
-//   });
+ 
 
   // Size change logic
   const sizeSelect = box.querySelector('.size-select');
